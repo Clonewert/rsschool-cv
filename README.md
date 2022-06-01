@@ -1,1 +1,1 @@
-https://clonewert.github.io/rsschool-cv/cv.md
+https://clonewert.github.io/rsschool-cv/
