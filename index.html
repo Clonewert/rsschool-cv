@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./assets/favicon.ico" />
+    <title>cv</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="profile" id="profile">
+          <div class="foto-profile">
+            <img src="./assets/foto.jpg" alt="foto" />
+          </div>
+          <h1 class="section-title">Bogdan Orzikulov</h1>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container main-container">
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul>
+            <li><a href="tel:+79265304005">Phone </a></li>
+            <li><a href="email:clonewert@gmail.com">Email: clonewert@gmail.com</a></li>
+            <li>Discord-Clonewert</li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p>
+            I would like to speak about myself. My name is Bogdan.I'm 41 years
+            old. I live in Moscow. I'm not married. I have higher education. I
+            can summarize who I am in three words: hardworking, responsible and
+            diligent.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+            <li>JavaScript</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+            <pre>
+    function insertionSort(A) {
+      for (let j = 1; j &lt; A.length; j++) {
+        let key = A[j];
+        let i = j - 1;
+          while (i > 0 && A[i] > key) {
+            A[i + 1] = A[i];
+            A[i] = key;
+            i--;
+          }
+      }
+    return A;
+    }
+  </pre>
+
+        </section>
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <a
+            href="https://github.com/Clonewert/rsschool-cv/blob/rsschool-cv-html/cv.md"
+            >GitHub</a
+          >
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>MOSCOW INSTITUTE of ELECTRONIC TECHNOLOGY</p>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+            <li>Russian-Native</li>
+            <li>English-A2</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">   
+        <div class="footer">    
+          <a href="https://github.com/Clonewert/">
+            <img src="./assets/github.svg" alt="GitHub" height="42" width="42">
+          </a>
+          <h3>2022</h3>
+            <a href="https://rs.school/js/">
+              <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool" height="60" width="60">
+            </a> 
+        </div>          
+      </div>
+    </footer>
+  </body>
+</html>
