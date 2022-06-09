@@ -1,4 +1,4 @@
-https://clonewert.github.io/rsschool-cv/cv
+https://clonewert.github.io/rsschool-cv/
 
 
 
